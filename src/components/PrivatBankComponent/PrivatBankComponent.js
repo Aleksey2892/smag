@@ -27,6 +27,8 @@ export default class PrivatComponent extends Component {
       item.buy = item.buy.slice(-0, -3);
       item.sale = item.sale.slice(-0, -3);
 
+      console.log('test');
+
       return item;
     });
 
